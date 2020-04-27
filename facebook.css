@@ -1,0 +1,285 @@
+body{
+    width: 375px;
+}
+/*header*/
+.header{
+    height:44px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo__img{
+    height:40px;
+    width:120px;
+}
+.header__button{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button{
+    margin-right: 10px;
+    padding: 5px;
+    height:24px;
+    background-color:#dadde1;   
+    border-radius: 50%;
+}
+.button .material-icons{
+    font-size: 26px;
+    font-weight: 900;
+}
+/*main story*/
+.main{
+    background-color: rgb(218, 221, 225);
+}
+.main__story{
+    background-color: white;
+    padding:12px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+.story{
+    width: 110px;
+    height: 180px;
+    border: 0.5px solid rgb(218, 221, 225);
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.first{
+    background-image: url('profile_img.jpg');
+    background-size: 100%60%;
+    background-repeat: no-repeat;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.first .material-icons{
+    font-size: 30px;
+    color: white;
+    background-color: #2e77f7;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+.story__text{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.second{
+    background-image: url('sky.jpg');
+    background-size: 100%;
+}
+.story__circle{
+    width: 30px;
+    height: 30px;
+    border: 3px solid #2e77f7;
+    border-radius: 50%;
+    background-image: url('profile_img.jpg');
+    background-size: 100%;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+.second .story__text{
+    color: white;
+    font-weight: bold;
+    margin-top: 95%;
+    margin-right: 20%;
+}
+/*main profile*/
+.main__profile{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.profile{
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:  0.5px solid rgb(218, 221, 225);
+}
+.profile__introduce{
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid rgb(218, 221, 225);
+    background-image: url('profile_img.jpg');
+    background-size: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile__title{
+    font-size: 19px;
+}
+.profile__bar{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+}
+.bar .material-icons{
+    margin-right: 3px;
+}
+.icon_description{
+    font-weight: bold;
+}
+/*main timeline*/
+.main__timeline{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+.timeline__top{
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+.top__photo{
+    width: 40px;
+    height: 40px;
+    background-image: url('iupro.jpg');
+    background-size: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.title{
+    font-weight: bolder;
+}
+.title__date{
+    font-size:14px;
+    color: rgb(104, 107, 112);
+}
+.material-icons--margin{
+    margin-left: 85px;
+}
+.mid__text{
+    padding-left: 12px;
+}
+.text--margintop{
+    margin-top: 0px;
+}
+
+.mid__photo{
+    width: 375px;
+    height: 375px; 
+    display: flex;
+    justify-content:space-between; 
+}
+.photo--big{
+    width:67%;
+    background-image: url('iu5.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.photos{
+    width:32%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.photo__1{
+    height:32%;
+    background-image: url('iu1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.photo__2{
+    height:32%;
+    background-image: url('iu2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.photo__3{
+    height:32%;
+    background-image: url('iu3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: brightness(50%);  
+}
+.over9{
+    font-weight: 500;
+    height:32%;
+    position: absolute;
+    bottom:-40px;
+    left:13px;
+    color: white;
+    font-size: 25px;
+}
+.timeline__bot{
+    height: 45px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    border-bottom: 0.5px solid rgb(218, 221, 225);
+    color:rgb(104, 107, 112);
+}
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile__introduce--mini{
+    width: 24px;
+    height: 24px;
+    border: 0.5px solid rgb(218, 221, 225);
+    background-image: url('profile_img.jpg');
+    background-size: 100%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.one .material-icons{
+    font-size:12px;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+    height: 13px;
+}
+.two .material-icons{
+    color: rgb(137, 139, 143);
+    font-size: 20px;
+}
+/*bottom*/
+.bottom{
+    background-color: white;
+    height:35px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    border-bottom: 5px solid rgb(218, 221, 225);
+    color:rgb(104, 107, 112);
+}
+.bottom__content{
+    display: flex;
+    justify-content: center;
+}
+.bottom__content .material-icons{
+    margin-right: 5px;
+}
+.menu{
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .material-icons{
+    font-size: 35px;
+    color:rgb(104, 107, 112);
+}
+.icon--blue{
+    border-top: 2px solid rgb(53, 120, 229);
+}
+.icon--blue .material-icons{
+    color:rgb(53, 120, 229)
+}
